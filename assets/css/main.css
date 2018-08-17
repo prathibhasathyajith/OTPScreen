@@ -1,0 +1,163 @@
+@import 'fonts.css';
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+.otp-main {
+    display: table;
+    width: 100%;
+    height: 100%;
+    background: #E8E8E8;
+}
+.otp-box {
+    display: table-cell;
+    vertical-align: middle;
+    background: #E8E8E8;
+}
+.otp-cont {
+    margin: 0 auto;
+    height: auto;
+    background: #FFC041;
+    width: 485px;
+    ;
+    border-radius: 7px;
+    box-shadow: 0 3px 5px 1px rgba(96, 125, 139, 0.67);
+    min-height: 360px;
+}
+.otp-top-sec {
+    height: 145px;
+    width: 100%;
+    background-image: url(../image/back5.svg);
+    background-position: right top;
+    background-size: cover;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    background-repeat: no-repeat;
+}
+.otp-top-sec1 {
+    height: auto;
+    width: 100%;
+}
+.otp-top-sec2 {
+    padding: 20px 10px 5px 10px;
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    margin: 0 auto;
+    text-align: center;
+}
+.otp-top-sec3 {
+    padding: 0;
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    margin: 0 auto;
+    text-align: center;
+}
+.otp-table {
+    margin: 0 auto;
+    font-size: 13px;
+}
+.otp-table >tbody>tr>td:first-child {
+    text-align: right;
+}
+.otp-visa-logo {
+    float: right;
+    background-image: url(../image/verified_by_visa.svg);
+    background-position: top 20px right 10%;
+    background-size: 41%;
+    height: 100%;
+    width: 50%;
+    background-repeat: no-repeat;
+}
+.otp-bank-logo {
+    float: left;
+    background-image: url(../image/boc.svg);
+    background-position: top 16px left 10%;
+    background-size: 31%;
+    height: 33%;
+    width: 50%;
+    background-repeat: no-repeat;
+}
+.otp-text {
+    font-family: Raleway;
+}
+.otp-sec-text1 {
+    font-size: 8px;
+    margin: 0px 0px 0 16px;
+    color: #292929;
+    font-weight: 400;
+}
+.otp-sec-text2 {
+    font-size: 20px;
+    margin: 28px 0px 0 15px;
+    color: #000000;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+.otp-sec-text3 {
+    font-size: 15px;
+    margin: 18px 0px 0 16px;
+    color: #292929;
+    font-weight: 900;
+}
+.otp-sec1-text1 {
+    font-size: 9px;
+    margin: 1px 0px 0 16px;
+    color: #000000;
+    font-weight: 500;
+    letter-spacing: 0px;
+}
+.otp-line {
+    width: 50%;
+    height: 1px;
+    background: #ffa303;
+}
+.otp-line3 {
+    width: 100%;
+    height: 1px;
+    background: #ffa303;
+}
+.otp-line2 {
+    width: 100%;
+    height: 3px;
+    background: #ffa303;
+    margin: 3px 0 0 0;
+}
+td>.otp-inputotp {
+    border: 1px solid #ffa303;
+    background: #FFD47E;
+    width: auto;
+    font-family: monospace;
+}
+.otp-button > input.otp-btn-confirm {
+    border: none;
+    background: #FF7700;
+    padding: 1px 7px;
+    border-radius: 10px;
+    font-size: 15px;
+    text-align: left;
+    font-weight: 900;
+    color: white;
+    font-style: italic;
+    text-decoration: none;
+    outline: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.otp-button > input.otp-btn-confirm:hover {
+    color: #FF7700;
+    background: white;
+}
+.otp-footer {
+    text-align: right;
+    padding: 15px 10px 10px 0;
+    font-size: 9px;
+}
+.otp-error {
+    font-size: 13px;
+    color: red;
+    padding: 2px;
+    font-weight: 700;
+}

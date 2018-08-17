@@ -1,0 +1,17 @@
+@media only screen and (max-width: 530px) {
+    .otp-cont {
+        width: 90%;
+    }
+    .otp-sec-text2 {
+        position: absolute;
+    }
+    .otp-sec-text3 {
+        position: absolute;
+        margin: 70px 0px 0 16px
+    }
+}
+@media only screen and (max-width: 485px) {
+    .otp-bank-logo {
+        background-position: top 16px left 16%;
+    }
+}
